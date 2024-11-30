@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  }
+
+    body {
+      font-family:'Franklin Gothic Medium', Arial, Helvetica;
+      font-size: large;
+    margin: 2;
+    background-image: url(ことり寧子\ イラストレーター.jpeg);
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #008b76;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a,
+  .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover,
+  .dropdown:hover .dropbtn {
+      background-color: rgb(0, 197, 157);
+  }
+
+  li.dropdown {
+      display: inline-block;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      z-index: 1;
+  }
+
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+
+  .dropdown-content a:hover {
+      background-color:
+          #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  /* Create three unequal columns that floats next
+  to each other */
+  .column {
+  float: left;
+  padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 33%;
+    text-align: justify;
+    flex: 1;
+    text-align: justify;
+    background-color: #f2f2f2bd;
+    }
+    
+    /* Middle column */
+    .column.middle {
+    width: 33%;
+    text-align: justify;
+     flex: 1;
+     text-align: justify;
+     background-color: #f2f2f2bd;
+    }
+    
+    /* Clear floats after the columns */
+    .row::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+  
+  .ok {
+    width: 412px; 
+    height: 250%; 
+  }
+
+.apasih {
+  width: 412px;
+  height: 250px;
+}
+  
+   .oink {
+    width: 412px;
+    height: auto;
+   }
+    .container { 
+      text-align: justify;
+      background-color: #f2f2f2a3;
+    }
+  
+    .epep {
+      text-align: justify;
+      background-color: #f2f2f2bd;
+    }
+  
